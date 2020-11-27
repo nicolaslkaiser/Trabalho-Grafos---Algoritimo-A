@@ -7,7 +7,7 @@ public class Vertice {
     public int linha;
     public int coluna;
 
-    public int custo_g;  // DISTANCIA G: DO VERTICE ATUAL PARA COM O VERTICE INICIAÇL
+    public int custo_g;  // DISTANCIA G: DO VERTICE ATUAL PARA COM O VERTICE INICIAL
     public int custo_h;  // DISTANCIA H: DO VERTICE ATUAL PARA COM O VERTICE FINAL
     public int custo_final;  // SOMA DAS DISTANCIAS G E H
     public boolean parede;  // BLOQUEADOR DA MATRIZ
